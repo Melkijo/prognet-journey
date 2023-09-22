@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CBufferedInput/CBufferedInput.iml" filepath="$PROJECT_DIR$/CBufferedInput/CBufferedInput.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CBufferedOutput/CBufferedOutput.iml" filepath="$PROJECT_DIR$/CBufferedOutput/CBufferedOutput.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CFileCopyNoBuffer/CFileCopyNoBuffer.iml" filepath="$PROJECT_DIR$/CFileCopyNoBuffer/CFileCopyNoBuffer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CFileInputStream/CFileInputStream.iml" filepath="$PROJECT_DIR$/CFileInputStream/CFileInputStream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CFileOutputStream/CFileOutputStream.iml" filepath="$PROJECT_DIR$/CFileOutputStream/CFileOutputStream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Coba.iml" filepath="$PROJECT_DIR$/.idea/Coba.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Tugas2/Tugas2.iml" filepath="$PROJECT_DIR$/Tugas2/Tugas2.iml" />
+    </modules>
+  </component>
+</project>
