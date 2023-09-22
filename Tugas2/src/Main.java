@@ -12,7 +12,7 @@ public class Main {
 
         ZipEntry temp;
         while ((temp = myZip.getNextEntry()) != null) {
-            System.out.print(temp.getName() + " \n");
+            System.out.print("File : " + temp.getName() + " \n");
         }
 
         myZip.close();
