@@ -11,6 +11,8 @@ public class Main {
         myZip = new ZipInputStream(readFile);
 
         ZipEntry temp;
+        System.out.println("READ ZIP FILE: ");
+        System.out.println("List File : ");
         while ((temp = myZip.getNextEntry()) != null) {
             System.out.print("File : " + temp.getName() + " \n");
         }

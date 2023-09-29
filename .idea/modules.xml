@@ -8,6 +8,8 @@
       <module fileurl="file://$PROJECT_DIR$/CFileInputStream/CFileInputStream.iml" filepath="$PROJECT_DIR$/CFileInputStream/CFileInputStream.iml" />
       <module fileurl="file://$PROJECT_DIR$/CFileOutputStream/CFileOutputStream.iml" filepath="$PROJECT_DIR$/CFileOutputStream/CFileOutputStream.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Coba.iml" filepath="$PROJECT_DIR$/.idea/Coba.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DownloadFile/DownloadFile.iml" filepath="$PROJECT_DIR$/DownloadFile/DownloadFile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ReadWebsite/ReadWebsite.iml" filepath="$PROJECT_DIR$/ReadWebsite/ReadWebsite.iml" />
       <module fileurl="file://$PROJECT_DIR$/Tugas2/Tugas2.iml" filepath="$PROJECT_DIR$/Tugas2/Tugas2.iml" />
     </modules>
   </component>
