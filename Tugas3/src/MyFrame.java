@@ -136,11 +136,15 @@ public class MyFrame extends JFrame implements ActionListener  {
 
                     try {
                         java.io.File file = new java.io.File(filePath);
-                        file.delete();
-                        downloadFileName.remove(row);
-                        downloadFilePath.remove(row);
-                        updateTable();
-                        JOptionPane.showMessageDialog(null, "File " + fileName + " deleted successfully");
+                        if(file.delete()){
+                            downloadFileName.remove(row);
+                            downloadFilePath.remove(row);
+                            updateTable();
+                            JOptionPane.showMessageDialog(null, "File " + fileName + " deleted successfully");
+                        }else{
+                            JOptionPane.showMessageDialog(null, "Delete failed: " + "File tidak ditemukan", "Error", JOptionPane.ERROR_MESSAGE);
+                        }
+
                     } catch (Exception ex) {
                         JOptionPane.showMessageDialog(null, "Delete failed: " + ex.getMessage());
                     }
@@ -168,6 +172,7 @@ public class MyFrame extends JFrame implements ActionListener  {
             return actionType;
         }
     }
+
 
     private void updateTable() {
         SwingUtilities.invokeLater(() -> {
