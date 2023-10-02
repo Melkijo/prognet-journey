@@ -18,11 +18,11 @@ public class Main {
             String paths = remoteFile.getPath();
             String[] path = paths.split("/");
             String fileName = path[path.length-1];
-            System.out.println(fileName);
-//membuka input dan output stream
+
+
             fOut = new FileOutputStream(fileName);
             in = fileStream.getInputStream();
-//menyimpan file
+
             int data;
             while ((data=in.read())!=-1){
                 fOut.write(data);
