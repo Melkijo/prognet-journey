@@ -233,7 +233,7 @@ public class MyFrame extends JFrame implements ActionListener  {
         } catch (Exception ex) {
             System.out.println("Download failed: " + ex.getMessage());
         } finally {
-            System.out.println("File telah berhasil didownload");
+            System.out.println("File telah berhasil didownload broh");
             try {
                 assert in != null;
                 in.close();
